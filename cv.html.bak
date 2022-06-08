@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>
+			Curriculum Vitae
+		</title>
+	</head>
+	<body>
+		<table border="1">
+			<td>
+				<tr>Baris 1 kolom 1</tr>
+				<tr>Baris 1 kolom 2</tr>
+				<tr>Baris 1 kolom 3</tr>
+				<tr>Baris 1 kolom 4</tr>
+				<tr>Baris 1 kolom 5</tr>
+				<tr>Baris 1 kolom 6</tr>
+				
+			</td>
+			<td>
+				<tr>Baris 2 kolom 1</tr>
+				<tr>Baris 2 kolom 2</tr>
+				<tr>Baris 2 kolom 3</tr>
+				<tr>Baris 2 kolom 4</tr>
+				<tr>Baris 2 kolom 5</tr>
+				<tr>Baris 2 kolom 6</tr>
+			</td>
+		</table>
+	</body>
+</html>

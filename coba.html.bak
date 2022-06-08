@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<title>kuis1</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+		<h2>Selamat Datang Di Perpustakaan XYZ</h2>
+		<br><br>
+		<!-- contoh penggunaan class -->
+		<div class="body">kotak 1</div>
+		<div class="container">kotak 2</div>
+		<div class="left">kotak 3</div>
+		<!-- contoh penggunaan id -->
+		<div id="header">kotak 4</div>
+	</body>
+</html>

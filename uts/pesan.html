@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>pemesanan</title>
+	<style>
+		.error{color: #ff0000;}
+	</style>
+</head>
+
+<body>
+	<h4>PEMESANAN</h4>
+	<?php
+		if(isset($_GET["error"])){
+			$error=$_GET["error"]
+		}else{
+			$error="";
+		}
+		
+		$pesan="";
+		if($error=="variabel_belum_diset"){
+			$pesan="tidak ada akses";
+		}else if
+			($error=="id_kosong"){
+			$pesan="Id harus diisi";
+		}else if
+			($error=="nama_kosong"){
+			$pesan="nama harus diisi";
+		}else if
+			($error=="status_kosong"){
+			$pesan="status harus diisi";
+		}
+	?>
+	<form action="abc.php" method="post">
+	<label>ID pembeli</label>
+	<input type="text", nama="myname" placeholder="Masukkan id"></br>
+	<label>Nama</label>
+	<input type="text", nama="myname" placeholder="Masukkan Nama"></br>
+	<label>Status</label><br>
+	<input type="radio" name="var4" value="r1">Member<BR>
+	<input type="radio" name="var4" value="r2">No-member<BR>
+		
+		<input type="submit">
+			</form>
+</body>
+</html>

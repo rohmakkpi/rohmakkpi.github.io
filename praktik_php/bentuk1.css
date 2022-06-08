@@ -1,0 +1,36 @@
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 90%;
+    border: 1px white;
+}
+h1, h2{
+    padding: 10px;
+}
+
+th{
+    text-align: center;
+    padding: 16px;
+}
+td{
+    text-align: left;
+    padding: 16px;
+}
+header{
+    background-color: blue;
+    color: white;
+    text-align: right;
+}
+footer{
+    clear : both;
+    text-align:center;
+    border : 1px solid #dedede;
+    padding : 3px;
+    margin : 10px;
+    background : blue;
+    color: #ddd;
+    }
+a{
+    color : rgb(252, 252, 252);
+    padding: 10px;
+   }

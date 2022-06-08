@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PROFIL</title>
+	<style>
+		body{
+			background-color: turquoise;
+		}
+			
+	</style>
+</head>
+<body>
+<font face ="Times New Roman" align="center" size="5">
+	<table border="1" cellspacing="0" cellpadding ="5" align = "center" width = "600">
+		<tr align = "center">
+			<td colspan="3"><marquee><b>menyediakan berbagai jenis makanan dan minuman</marquee></td>
+		</tr>
+		<tr>
+			<td>Makanan</td>
+			<td>Minuman</td>
+		</tr>
+		<tr>
+			<td><img src="k1.jpg" width = "200"></td>
+			<td><img src="m1.jpg" width = "200"></td>
+			<td>Sate</td>
+			<td>Rp.25000</td>
+		</tr>
+		<tr>
+			<td><img src="k2.jpg" width = "200"></td>
+			<td><img src="m2.jpg" width = "200"></td>
+		</tr>
+		<tr>
+			<td><img src="k3.jpg" width = "200"></td>
+			<td><img src="m3.jpg" width = "200"></td>
+		</tr>
+		<tr>
+			<td><img src="k4.jpg" width = "200"></td>
+			<td><img src="m4.jpg" width = "200"></td>
+		</tr>
+	</table>
+</font>
+</body>
+</html>

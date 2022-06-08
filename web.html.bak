@@ -1,0 +1,33 @@
+<DOCTYPE html!>
+<html>
+	<head>
+		<title>kuis1</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+		<body>
+		<h1 align = center >Selamat Datang Di Perpustakaan XYZ</h1>
+		<table border=1 height=10% width=40% cellpadding= 10 cellspacing=5>
+			<tr>
+				<td>Menu</td>
+				<td>Bertia</td>
+				<td>Buku Terpopuler</td>
+			</tr>
+			<tr>
+				<td>Login</td>
+				<td>Membuat Design Web Responsive</td>
+				<td height= 50% width = 60%>Web Design</td>
+			</tr>
+			<tr>
+				<td>Home</td>
+				<td>gmbr</td>
+				<td>Pemrograman</td>
+			</tr>
+			<tr>
+				<td>Daftar Buku</td>
+				<td>Baca selengkapnya>></td>
+				<td>Database</td>
+			</tr>
+		</table>
+		</body>
+
+</html>

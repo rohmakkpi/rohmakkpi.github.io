@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Home</title>
+    <link rel = "stylesheet" type="text/css" href="bentuk.css"/>
+</head>
+<body>
+    <h1>home</h1>
+        <table>
+            <tr>
+                <th> kode </th>
+                <th> judul </th>
+                <th> pengarang </th>
+            </tr>
+            <?php
+            include "myconnect.php";
+            $query = "SELECT * FROM buku";
+            $result = mysqli_query($connect, $query);
+
+            if(mysqli_num_rows($result) > 0){
+                while($row = mysqli_fetch_array($result)){
+            ?>
+            <tr>
+                <td><?php echo $row["Id_buku"]; ?></td>
+                <td><?php echo $row["Judul"]; ?></td>
+                <td><?php echo $row["Pengarang"]; ?></td>
+            </tr>
+            <?php
+                }
+            }else {
+                echo "0 result";
+            }
+            ?>
+
+        </table>
+        <br>
+
+</body>
+</html>
+

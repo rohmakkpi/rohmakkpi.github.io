@@ -1,0 +1,35 @@
+table{
+    margin: auto;
+    width: 35%;
+    border: 1px solid #ddd;
+}
+h1, h2{
+    padding: 10px;
+}
+
+th{
+    text-align: center;
+    padding: 10px;
+}
+td{
+    text-align: left;
+    padding: 10px;
+}
+header{
+    background-color: blue;
+    color: white;
+    text-align: right;
+}
+footer{
+    clear : both;
+    text-align:center;
+    border : 1px solid #dedede;
+    padding : 3px;
+    margin : 10px;
+    background : blue;
+    color: #ddd;
+    }
+a{
+    color : rgb(252, 252, 252);
+    padding: 10px;
+   }
